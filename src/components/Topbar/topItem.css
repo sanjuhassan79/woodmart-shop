@@ -1,0 +1,35 @@
+.topItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid bisque;
+    align-items: center;
+}
+
+.item__all ul{
+    display: flex;
+    margin-bottom: 0px !important;
+}
+.item__all ul li{
+    padding: 0 10px;
+    border-right: 1px solid bisque;
+    
+}
+.item__all ul li a{
+    color: rgb(51, 49, 49) !important;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+
+@media (max-width:768px){
+
+	.topItem{
+        display: none;
+       
+    }
+}
