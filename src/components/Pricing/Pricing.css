@@ -1,0 +1,207 @@
+.packaage_item{
+    background-image: url('https://i.ibb.co/TqyjFL1/Rectangle-49-1.png');
+    height: 1153px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    width: 100%;
+    background-position-y: bottom;
+  
+}
+.allitem{
+    background: #FFFFFF;
+border-radius: 20px;
+
+}
+
+.packaage_title h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #20184E;
+}
+.packaage_title p{
+    color: #666666;
+}
+.col-lg-mblg-0 {
+    height: 480px;
+    margin-bottom: 5rem !important;
+}
+.packaage {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 116px;
+}
+.bd_pricing_img1{
+    background-image: url('https://i.ibb.co/VJqGxgY/Group-1006.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 479px; */
+    border-radius: 20px 20px 8px 8px;
+    position: relative;
+}
+.bd_pricing_img{
+    background-image: url('https://i.ibb.co/r0Qj6Cb/Group-1007-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 479px; */
+    border-radius: 20px 20px 8px 8px;
+    position: relative;
+}
+.bd_pricing_img::before {
+    content: 'Recommended';
+    position: absolute;
+    top: 0;
+    right: 75px;
+    width: 35%;
+    height: 12%;
+    background: #FFDA58;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #20184E;
+}
+.hwhite{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 160%;
+color: #FFFFFF;
+}
+i.fa-check-primary {
+    background: #f9f1f1;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 9px;
+    color: black !important;
+    margin-right: 1rem;
+}
+i.fa-check-primary1 {
+    background: #933dff;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 9px;
+    color: white !important;
+    margin-right: 1rem;
+}
+
+.hte{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.tex0{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #EDEDED;
+}
+
+
+.pric-button-item{
+    background: #FFFFFF !important;
+border-radius: 40px !important;
+color: #8828FF !important;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

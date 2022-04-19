@@ -7,19 +7,35 @@ import {
   Route,
   
 } from "react-router-dom";
-import Home from './components/Home/Home';
-import Topbar from './components/Topbar/Topbar';
-import Buttonbar from './components/Buttonbar/Buttonbar';
+import Banner from './components/Banner/Banner';
+import Footer from './components/Footer/Footer';
+import Appitems from './components/appsitem/Appitems';
+import Features from './components/Features/Features';
+import Pricing from './components/Pricing/Pricing';
+import Navigate from './components/navigate/Navigate';
+import Productivity from './components/Productivity/Productivity';
+import Founders from './components/Founders/Founders';
+
 function App() {
   return (
     <BrowserRouter>
-    <Topbar></Topbar>
+    {/* <Topbar></Topbar> */}
     <Header></Header>
-    <Buttonbar></Buttonbar>
-    <Routes>
+    <Banner></Banner>
+    
+    <Appitems></Appitems>
+    
+    <Features></Features>
+    <Pricing></Pricing>
+    <Navigate></Navigate>
+    <Productivity></Productivity>
+    <Founders></Founders>
+    <Footer></Footer>
+    {/* <Buttonbar></Buttonbar> */}
+    {/* <Routes>
       <Route path="/" element={<Home />} />
       
-    </Routes>
+    </Routes> */}
   </BrowserRouter>
   );
 }

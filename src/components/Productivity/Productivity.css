@@ -1,0 +1,22 @@
+.Productivity {
+    
+    text-align: center;
+}
+.Productivity h2 {
+    
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #20184E;
+}
+
+img.imgfluid {
+    width: 920px;
+    height: 219px;
+}

@@ -1,0 +1,165 @@
+
+
+
+ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+.topItemheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exo-menu {
+ 
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.exo-menu > li {	
+    
+    display: inline-block;
+   
+
+}
+.exo-menu > li > a{
+
+	text-decoration: none;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+ color: #C08DFF;
+
+}
+.exo-menu > li > a.active,
+.exo-menu > li > a:hover,
+li.drop-down ul > li > a:hover{
+	color: #8828FF
+
+}
+.exo-menu i {
+  float: left;
+  font-size: 18px;
+  margin-right: 6px;
+  line-height: 20px !important;
+}
+
+
+
+ul.icon-des li a i {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #009FE1;
+    line-height: 35px !important;
+}
+
+ul.icon-des li {
+    width: 100%;
+    display: table;
+    margin-bottom: 11px;
+}
+
+
+/*responsive*/
+ @media (min-width:767px){
+	.exo-menu > li > a{
+	display:block;
+	padding: 20px 22px;
+ }
+
+ }
+@media (max-width:767px){
+ 
+	.exo-menu {
+		min-height: 58px;
+		background-color: #23364B;
+		width: 100%;
+	}
+	
+	.exo-menu > li > a{
+		width:100% ;
+	    display:none ;
+	
+	}
+	.exo-menu > li{
+		width:100%;
+	}
+	.display.exo-menu > li > a{
+	  display:block ;
+	  	padding: 20px 22px;
+	}
+	
+
+
+}
+.nav-menu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.social-share li {
+  margin: 10px 12px;
+  font-size: 18px;
+  line-height: 1.5;
+  list-style: none;
+  color: #878e99;
+  
+  transition: .4s;
+
+  border-radius: 6px;
+ 
+  background: linear-gradient(to right bottom,#9ca0a5,#cad9f5);
+  
+}
+.fab {
+  color: #241011;
+}
+
+.custom-log {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding: 6px 38px;
+  color: #8828FF;
+  text-decoration: none;
+  display: flex;
+  margin-top: 11px;
+}
+.custom-but {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #8828FF;
+  border: 1.3px solid #8828FF;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 8px 24px;
+  margin-top: 11px;
+}

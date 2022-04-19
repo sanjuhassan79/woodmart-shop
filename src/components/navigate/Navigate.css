@@ -1,0 +1,17 @@
+
+.Navi_title h2{font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #20184E;}
+.Navi_title_p{
+    color: #666666;
+
+}
+
+.bnt-nag {
+    background: #8828FF !important;
+    color: white !important;
+}

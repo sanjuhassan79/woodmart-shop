@@ -1,0 +1,107 @@
+
+
+
+
+
+.ures-text_item1 {
+    margin-top: 13rem;
+}
+.ures-text_item1 h1{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+text-transform: capitalize;
+color: #20184E;
+}
+.ures-text_item1 p{
+    color: #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg_feate_itme{
+    background-image: url('https://i.ibb.co/PtL6RJD/Ellipse-8-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .card_show {
+    background: #FFFFFF;
+    box-shadow: 48px 37px 104px #140b48;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    width: 379px;
+    position: relative;
+    margin: 2rem;
+}
+.card_shows:before {
+    content: '';
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 9px solid #8828FF;
+    left: 0;
+    top: 25px;
+    border-radius: 5px;
+}
+.cardaft::after {
+    content: '';
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 9px solid #8828FF;
+    right: 0px;
+    top: 29px;
+    border-radius: 5px;
+}
+.avater__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 2rem;
+    margin-top: 7rem;
+}
+.cart_it {
+    margin-left: 18rem !important;
+}
+
+.cart_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10rem;
+}
+
+.name__feat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textsecondary{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ADABB7; 
+}
+.name__feat h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%; 
+    color: #20184E;
+}

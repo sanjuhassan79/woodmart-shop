@@ -1,0 +1,85 @@
+.founders_item{
+    background-image: url('https://i.ibb.co/dryk7tv/Mask-Group-2.png');
+    height: 642px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    width: 100%;
+    background-position-y: top;
+  
+}
+.unders-text_item {
+    margin-top: 12rem;
+   
+}
+.unders-text_item h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.unders-text_item p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+   color: #FFFFFF;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(274px);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.maintxt {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+   color: #8F8F8F;
+}
+
+.name {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+     color: #8828FF;
+     margin-left: 10px;
+}
+
+.para {
+    color: #8c8c8c;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px
+}
+
+.d-fleentery-3 {
+    margin-left: 8rem;
+}
+.vector img{
+    max-width: 6%;
+    margin: 1rem;
+}

@@ -1,0 +1,74 @@
+.banner_item{
+    background-image: url('https://i.ibb.co/DfyMHxv/Mask-Group-1.png');
+    height: 952px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    width: 100%;
+    background-position-y: bottom;
+  
+}
+img.row_flex {
+    margin: 6rem 0;
+}
+/* img {
+    width: 100%;
+} */
+.banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text_item h1{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.banner-text_item {
+    margin-bottom: 19rem;
+    /* margin-left: 17rem; */
+}
+
+.banner-but {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: #8828FF;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 8px 24px;
+    margin-top: 11px;
+    border: none;
+  }
+  .banner-but2 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 24px;
+    margin-top: 11px;
+    border: none;
+    background: none;
+}
+.textcent3 a{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+
+color: #ADABB7;
+}

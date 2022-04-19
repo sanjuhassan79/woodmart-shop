@@ -1,0 +1,49 @@
+.footer-brand img{
+    max-width: 122px;
+}
+.foo_title{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #ADABB7;
+}
+.textybold{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 160%;
+/* identical to box height, or 32px */
+
+
+color: #FFFFFF;
+}
+
+.texthite{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+text-decoration: none;
+color: #ADABB7;
+}
+.love{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #ADABB7;
+}
+
+ul.social-icons {
+    display: flex;
+    justify-content: start;
+    padding-left: 0px;
+}
+img.rounded-circle {
+    margin: 1rem;
+}

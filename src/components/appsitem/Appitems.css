@@ -1,0 +1,25 @@
+
+
+  .app_img{
+    width: 578px;
+    height: 531px;
+  }
+  .bg_app_itme{
+    background-image: url('https://i.ibb.co/Y88w6yD/Ellipse-8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .app-text_item h2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #20184E;
+  }
+  .app-text_item p{
+    color: #666666;
+  }
