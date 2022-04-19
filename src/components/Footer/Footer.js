@@ -20,7 +20,7 @@ const Footer = () => {
       
       <div class="row">
        
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 col-xmxmb-4">
           
         <Link class="footer-brand" to="#"><img src="https://i.ibb.co/SPWQ0kt/Group-3.png" alt="logo"/></Link>
 
@@ -45,7 +45,7 @@ const Footer = () => {
         
 
         
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 col-xmxmb-4">
           
           <h6 class="textybold">Products</h6>
          
@@ -69,7 +69,7 @@ const Footer = () => {
 
 
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 col-xmxmb-4">
           
           <h6 class="textybold">Our product</h6>
          
@@ -86,7 +86,7 @@ const Footer = () => {
             <a href="#!" class="texthite">Integration apps</a>
           </p>
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 col-xmxmb-4">
           
           <h6 class="textybold">About us</h6>
          
@@ -113,12 +113,12 @@ const Footer = () => {
   
   
   <div class="row">
-    <div class="col">
+    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
       <h4 className='love text-start ms-5'>Made with ❤ by Tazkily Team</h4>
     </div>
-    <div class="col">
+    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
     <div
-       class="textcent3 text-center"
+       class="textcent3 "
        
        >
     © 2020 Copyright:
@@ -127,8 +127,8 @@ const Footer = () => {
       >
   </div>
     </div>
-    <div class="col">
-      <p className='love text-end'>Help center</p>
+    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+      <p className='love '>Help center</p>
     </div>
  
 </div>

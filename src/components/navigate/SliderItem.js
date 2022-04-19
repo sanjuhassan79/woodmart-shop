@@ -1,32 +1,18 @@
 import React from 'react';
 import './SliderItem.css';
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+
 
 // import "./styles.css";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+
 const SliderItem = () => {
     return (
         <>
          <div class="container-fluid pskjdf">
-         <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
-          slidesPerGroup={3}
-          loop={true}
-          loopFillGroupWithBlank={true}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Pagination, Navigation]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-              <div class="card float-right">
+         
+  <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+    <div class="card float-right">
       <div class="rowa">
         <div class="coltt">
           <img class="sliimg" src="https://i.ibb.co/h1W7Kff/Rectangle-47.png" alt=""/>
@@ -43,9 +29,10 @@ const SliderItem = () => {
         </div>
  
       </div>
-    </div></SwiperSlide>
-          <SwiperSlide>
-              <div class="card float-right">
+    </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+    <div class="card float-right">
       <div class="rowa">
         <div class="coltt">
           <img class="sliimg" src="https://i.ibb.co/h1W7Kff/Rectangle-47.png" alt=""/>
@@ -62,9 +49,10 @@ const SliderItem = () => {
         </div>
  
       </div>
-    </div></SwiperSlide>
-          <SwiperSlide>
-              <div class="card float-right">
+    </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+    <div class="card float-right">
       <div class="rowa">
         <div class="coltt">
           <img class="sliimg" src="https://i.ibb.co/h1W7Kff/Rectangle-47.png" alt=""/>
@@ -81,11 +69,11 @@ const SliderItem = () => {
         </div>
  
       </div>
-    </div></SwiperSlide>
+    </div>
+    </div>
+  </div>
 
-          
-        </Swiper>
-
+         
          </div>
         
       </>

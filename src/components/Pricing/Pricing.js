@@ -5,7 +5,7 @@ const Pricing = () => {
         <div className='packaage_item'>
           
           
-  <div class="container-fluid containerpass">
+  <div class="container-fluid containerpass my-5">
 
   
   

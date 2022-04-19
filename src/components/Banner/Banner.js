@@ -22,7 +22,7 @@ const Banner = () => {
 
 
                         </div>
-                        <div class="col-12 col-sm-12 col-mg-6 col-lg-6 p-0">
+                        <div class="col-12 col-sm-12 col-mg-6 col-lg-6 p-0 row_flexw">
 
                         <img src="https://i.ibb.co/hswxW64/Group-124.png" class="row_flex" alt="banner-img"/>
                         </div>

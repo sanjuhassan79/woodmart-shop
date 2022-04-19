@@ -3,8 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import {
   BrowserRouter,
-  Routes,
-  Route,
+  
   
 } from "react-router-dom";
 import Banner from './components/Banner/Banner';
@@ -19,7 +18,7 @@ import Founders from './components/Founders/Founders';
 function App() {
   return (
     <BrowserRouter>
-    {/* <Topbar></Topbar> */}
+    
     <Header></Header>
     <Banner></Banner>
     
@@ -31,11 +30,7 @@ function App() {
     <Productivity></Productivity>
     <Founders></Founders>
     <Footer></Footer>
-    {/* <Buttonbar></Buttonbar> */}
-    {/* <Routes>
-      <Route path="/" element={<Home />} />
-      
-    </Routes> */}
+    
   </BrowserRouter>
   );
 }

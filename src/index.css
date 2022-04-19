@@ -23,3 +23,183 @@ p{
 .containerpass{
   padding: 0 8.0625rem !important;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .containerpass {
+    padding: 0 0.0625rem !important;
+}
+.banner-text_item h1 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px !important;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-top: 9rem;
+}
+.banner-text_item {
+  margin-bottom: 6rem !important;
+ 
+}
+p{
+  font-size: 16px;
+line-height: 28px;}
+.row_flexw img {
+  
+  width: 431.07px !important;
+  height: 226px;
+}
+img.row_flex {
+  margin: 0rem 0 !important;
+  margin-left: 0rem !important;
+}
+.app_img {
+  width: 349px !important;
+  height: 429px !important;
+  margin-bottom: 5rem !important;
+}
+
+.ures-text_item1 h1 {
+  
+  
+  font-weight: 700 !important;
+  font-size: 28px !important;
+  line-height: 120% !important;
+  
+}
+
+.ures-text_item1 {
+  margin-left: 1rem;
+}
+
+.cart_it {
+  margin-left: -1rem !important;
+}
+.cart_item {
+  
+  margin-left: 0rem !important;
+}
+.col-lg-mblg-0 {
+  
+  width: 312.24px !important;
+  height: 533.47px !important;
+  margin: 0 auto;
+}
+.bd_pricing_img::before {
+  
+  right: 24px;
+  width: 48%;
+  height: 9%;
+  ;
+}
+
+.Navi_title {
+  margin-top: 63rem;
+  margin-left: 1rem;
+}
+.Navi_title h1 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #20184E;
+ 
+}
+.Navi_title_p {
+  margin-left: 1rem;
+}
+.pskjdf {
+  padding-left: 1rem !important;
+}
+
+.Posted3 {
+ 
+  font-weight: 700;
+  font-size: 16px !important;
+  line-height: 150%;
+  
+}
+img.sliimg {
+  width: 10rem;
+  border-radius: 20px;
+  padding: -0.5rem !important;
+}
+
+img.imgfluid {
+  
+  width: 298.47px !important;
+  height: 71.05px !important;
+}
+.Productivity h2 {
+  
+  font-weight: 700 !important;
+  font-size: 28px !important;
+  line-height: 120% !important;
+}
+
+.unders-text_item h1 {
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.unders-text_item {
+  margin-top: 7rem !important;
+}
+
+.founders_item {
+ 
+  height: 1300px !important;
+ 
+}
+.d-fleentery-3 {
+  margin-left: 0rem !important;
+  flex-direction: column;
+}
+
+
+.col-xmxmb-4 {
+  text-align: left;
+  padding: 0 2rem !important;
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1366px) {
+  
+  .banner-text_item {
+    margin-bottom: 3rem !important;
+    margin-left: 6rem !important;
+}
+img.row_flex {
+  margin: 6rem 0;
+  margin-left: 0rem !important;
+}
+}

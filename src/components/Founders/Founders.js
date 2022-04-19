@@ -22,7 +22,7 @@ const Founders = () => {
 
     </div>
     <div class="col-12 col-sm-12 col-mg-6 col-lg-6 p-0">
-    <div class="unders-text_item">
+    <div class="unders-text_item2">
     <div class="d-flex justify-content-center py-3 d-fleentery-3 ">
         <div class="">
             <div class="card">

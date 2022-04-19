@@ -2,7 +2,7 @@ import React from 'react';
 import './Productivity.css'
 const Productivity = () => {
     return (
-        <div className='container-fluid '>
+        <div className='container-fluid my-5'>
 
             <div className='Productivity'>
 

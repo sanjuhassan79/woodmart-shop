@@ -11,10 +11,11 @@
 }
 img.row_flex {
     margin: 6rem 0;
+    margin-left: 8rem;
 }
-/* img {
-    width: 100%;
-} */
+.row_flexw img {
+    max-width: 100%;
+} 
 .banner-text {
     display: flex;
     justify-content: center;
